@@ -56,5 +56,6 @@ driver = webdriver.Chrome(r"C:\Users\koga\Documents\chromedriver_win32\chromedri
         - IDセレクタ: 要素名#ID名 `#search'`
         - classセレクタ: 要素名.class名 `input.input-text`
         - 要素セレクタ: 要素名
-        - その他疑似要素，疑似クラス，属性セレクタ等がある．詳細は外部ページ: http://www.htmq.com/csskihon/005.shtml 参照  
-**複数の要素をリスト形式で取得するにはメソッド名の<span style="color: red; ">element</span>を<span style="color: red; ">elements</span>にすればよい．**
+        - その他疑似要素，疑似クラス，属性セレクタ等がある．詳細は外部ページ: http://www.htmq.com/csskihon/005.shtml 参照
+
+複数の要素をリスト形式で取得するにはメソッド名の**element**を**elements**にすればよい．
