@@ -1,11 +1,11 @@
-#Seleniumメモ
-##まずimport
+# Seleniumメモ
+## まずimport
 from selenium import webdriver
 これがないと話にならない
-##ドライバーセットアップ
+## ドライバーセットアップ
 driver = webdriver.Chrome(r"C:\Users\koga\Documents\chromedriver_win32\chromedriver.exe")
 これで取得したブラウザのドライバーを使って要素，中のテキストを取得，ボタンのクリック，テキストボックスへの入力を行う
-##要素取得メソッド
+## 要素取得メソッド
 ```サンプルHTML
 <form id="search_mini_form" action="http://demo.magentocommerce.com/catalogsearch/result/" method="get">
     <div class="form-search">
